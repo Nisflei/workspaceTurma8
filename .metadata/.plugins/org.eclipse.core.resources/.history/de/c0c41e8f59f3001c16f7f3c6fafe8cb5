@@ -5,5 +5,5 @@ public class Livro {
 	public String editora;
 	public int numPagina;
 	public String autor;
-	public double preco; 
+	public double preco;
 }

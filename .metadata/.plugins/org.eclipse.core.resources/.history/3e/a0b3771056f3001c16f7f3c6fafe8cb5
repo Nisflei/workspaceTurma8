@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class AgendaRevisao {
 	// Atributos (propriedade)
-	 
+	
 	public String cliente;
 	public String modelo;
 	public String veiculo;
@@ -13,7 +13,7 @@ public class AgendaRevisao {
 	
 	// Metodos ( operações )
 	
-	public void agendar() {
+	public void angendar() {
 		System.out.println("Agendamento realizado com sucesso..!!!");
 	}
 	
