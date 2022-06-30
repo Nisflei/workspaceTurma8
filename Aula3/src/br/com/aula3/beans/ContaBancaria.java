@@ -1,4 +1,4 @@
-package beans;
+package br.com.aula3.beans;
 
 public class ContaBancaria {
 	private int conta;

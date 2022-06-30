@@ -1,8 +1,8 @@
-package implementacao;
+package br.com.aula3.implementacao;
 
 import java.util.Scanner;
 
-import beans.Produto;
+import br.com.aula3.beans.Produto;
 
 public class ExecutarProduto {
 	public static void main(String[] args) {

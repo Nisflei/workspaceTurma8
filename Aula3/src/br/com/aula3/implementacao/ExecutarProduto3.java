@@ -1,9 +1,9 @@
-package implementacao;
+package br.com.aula3.implementacao;
 
 import javax.swing.JOptionPane;
 
-import beans.Produto;
-import util.Input;
+import br.com.aula3.beans.Produto;
+import br.com.aula3.util.Input;
 
 public class ExecutarProduto3 {
 	public static void main(String[] args) {

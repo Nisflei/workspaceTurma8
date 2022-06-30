@@ -1,7 +1,7 @@
-package implementacao;
+package br.com.aula3.implementacao;
 
-import beans.ContaBancaria;
-import util.Input;
+import br.com.aula3.beans.ContaBancaria;
+import br.com.aula3.util.Input;
 
 public class ExecutarConta {
 

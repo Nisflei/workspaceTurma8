@@ -1,4 +1,4 @@
-package util;
+package br.com.aula3.util;
 
 import javax.swing.JOptionPane;
 
