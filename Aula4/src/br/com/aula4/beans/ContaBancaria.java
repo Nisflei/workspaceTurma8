@@ -1,9 +1,12 @@
 package br.com.aula4.beans;
 
+import java.util.Optional;
+
 public class ContaBancaria {
 	private int conta;
 	private double saldo;
 	private Cliente cliente;
+	private Banco banco;
 	private double limiteEspecial;
 	private String tipoConta;
 	
@@ -18,6 +21,17 @@ public class ContaBancaria {
 		this.cliente = cliente;
 		this.tipoConta = tipoConta;
 	}
+	
+	public ContaBancaria(int conta, double saldo, Cliente cliente, String tipoConta, Banco banco) {
+		super();
+		this.conta = conta;
+		this.saldo = saldo;
+		this.cliente = cliente;
+		this.tipoConta = tipoConta;
+		this.banco = banco;				
+	}
+	
+	
 
 	// Getters + Setters 
 
@@ -57,6 +71,15 @@ public class ContaBancaria {
 		this.tipoConta = tipoConta;
 	}
 	
+	public Banco getBanco() {
+		return banco;
+	}
+
+	public void setBanco(Banco banco) {
+		this.banco = banco;
+	}
+
+	
 	// Metodos
 	
 	public String saque(double valor) {
@@ -82,8 +105,12 @@ public class ContaBancaria {
 	}
 
 	public String extrato() {
-		return "ContaBancaria [conta=" + conta + ", saldo=" + saldo + ", cliente=" + cliente+ ", limiteEspecial="
-				+ limiteEspecial + ", tipoConta=" + tipoConta + "]";
+		if (this.banco == null) 
+			return "ContaBancaria [conta=" + conta + ", saldo=" + saldo + ", cliente=" + cliente.getNome() + ", limiteEspecial="
+					+ limiteEspecial + ", tipoConta=" + tipoConta + "]";
+		else
+			return "ContaBancaria [Banco=" +  banco.getRazaoSocial()  + ", conta=" + conta + ", saldo=" + saldo + ", cliente=" + cliente.getNome() + ", limiteEspecial="
+			+ limiteEspecial + ", tipoConta=" + tipoConta + "]";
 	}
 
 	
