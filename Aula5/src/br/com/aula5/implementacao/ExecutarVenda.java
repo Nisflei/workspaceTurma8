@@ -15,12 +15,12 @@ public class ExecutarVenda {
 		cel.setArmazenamento(64);
 		
 		System.out.println("Celular:" +" - "+ cel.getId() + " - "+cel.getPreco() + " - "+cel.getArmazenamento());
-		cel.ImpostoProd();
+		cel.CalcImposto();
 		
 		Livro lv = new Livro(0, "Java Será ?", 250.0, "Fracisco M", "ISBN1345");
 		
 		System.out.println("Livro: " + lv.getDescricao() +" - " + lv.getPreco() ); 
-		lv.ImpostoProd();
+		lv.CalcImposto();
 		
 		
 		//Produto pp = new Produto(5,"Sabão",5);

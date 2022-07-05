@@ -28,18 +28,6 @@ public class Celular extends Produto {
 		this.armazenamento = armazenamento;
 	}
 
-	
 	// Metodo	
-	@Override
-	public void ImpostoProd() {
-		double valor = super.getPreco() * 0.20;
-		System.out.println("Imposto: " + valor);
-	}
-	
-
-
-	
-	
-	
 	
 }

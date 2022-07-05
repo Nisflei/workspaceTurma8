@@ -26,6 +26,11 @@ public class Livro extends Produto{
 
 	public void setIsbn(String isbn) {
 		this.isbn = isbn;
+	}
+
+	@Override
+	public void CalcImposto() {
+		System.out.println(("ValorImposto: " + super.getPreco() * 0.10));
 	};
 	
 	// metodo

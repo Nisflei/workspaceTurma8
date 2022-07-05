@@ -1,6 +1,8 @@
 package br.com.aula5.beans;
 
-public abstract class Produto {
+import br.com.aula5.interfaces.padraoCalcImposto;
+
+public abstract class Produto implements padraoCalcImposto {
 	private int id;
 	private String descricao;
 	private double preco;
@@ -38,8 +40,10 @@ public abstract class Produto {
 	}
 	
 	// Metodos: 
-	public void ImpostoProd() {
-		double valor = this.preco * 0.10;
+	@Override
+	public void CalcImposto() {
+		// TODO Auto-generated method stub
+		double valor = this.preco* 0.20;
 		System.out.println("Imposto: " + valor);
 	}
 	
