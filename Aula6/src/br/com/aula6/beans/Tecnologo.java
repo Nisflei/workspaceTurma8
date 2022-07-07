@@ -23,6 +23,11 @@ public class Tecnologo extends Formacao {
 		setMensalidade(getDuracao() * fator * 200);
 	}
 	
+	@Override
+	public void definirDuracao() {
+		setDuracao(24);
+	}
+	
 
 	
 	

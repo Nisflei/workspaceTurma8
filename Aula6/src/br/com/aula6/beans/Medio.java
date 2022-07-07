@@ -23,4 +23,10 @@ public class Medio extends Formacao {
 		setMensalidade(getDuracao() * fator * 100);
 	}
 	
+	@Override
+	public void definirDuracao() {
+		setDuracao(36);
+	}
+	
+	
 }

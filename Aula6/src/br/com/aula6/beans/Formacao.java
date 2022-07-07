@@ -2,7 +2,7 @@ package br.com.aula6.beans;
 
 import br.com.aula6.interfaces.FormacaoMetodos;
 
-public class Formacao implements FormacaoMetodos{
+public abstract class Formacao implements FormacaoMetodos{
 	private String descricao;
 	private int duracao;
 	private double mensalidade;
@@ -69,11 +69,5 @@ public class Formacao implements FormacaoMetodos{
 	public void definiDuracao() {
 		System.out.println("definiDuracao não implementado");
 	}
-
-	@Override
-	public void calculaMensalidade(double fator) {
-		
-	}
-	
 	
 }
