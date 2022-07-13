@@ -24,7 +24,7 @@ public class ExecutarMAP {
 		System.out.println(h_map.values());
 		System.out.println(h_map.keySet());
 		
-		for (Map.Entry elemento: h_map.entrySet()) {
+		for (Map.Entry<Integer, String> elemento: h_map.entrySet()) {
 			System.out.println("Conteudo: " + elemento.getKey() + " - " + elemento.getValue() );
 		}
 		
@@ -38,11 +38,6 @@ public class ExecutarMAP {
 		System.out.println(h_map.entrySet());
 		
 		System.out.println("Remover um elemento chave 50: " + h_map.remove(50) );
-		
-
-		
-		
-				
 
 	}
 
