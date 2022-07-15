@@ -62,7 +62,7 @@ public class Veiculo {
 	}
 
 	public void setAnoFabricacao(int anoFabricacao) throws Exception {
-		//enpsular regra
+		//enpsular regra 
 		Date data = new Date();
 		DateFormat dtf = new SimpleDateFormat("yyyy");
 		

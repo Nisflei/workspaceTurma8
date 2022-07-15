@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class Input {
 	//atributos
-	//contrutor
+	//contrutor 
 	
 	//metodos
 	

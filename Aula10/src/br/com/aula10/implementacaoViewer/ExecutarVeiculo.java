@@ -69,7 +69,7 @@ public class ExecutarVeiculo {
 				break;
 
 			case 'E':
-				// excluir
+				// excluir  
 
 				placa = Input.texto("Digite a placa do veiculo para Excluir:");
 

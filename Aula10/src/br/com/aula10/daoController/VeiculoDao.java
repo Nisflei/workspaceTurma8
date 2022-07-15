@@ -7,7 +7,7 @@ import br.com.aula10.beansModel.Veiculo;
 
 public class VeiculoDao {
 	
-	// objetivo de simular um BD em "memoria"
+	// objetivo de simular um BD em "memoria"  
 	
 	List<Veiculo> bancoVeiculos = new ArrayList<Veiculo>();
 	
